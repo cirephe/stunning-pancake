@@ -1,7 +1,7 @@
 import { createMachine } from 'xstate';
 
 const toggleMachine = createMachine({
-  /** @xstate-layout N4IgpgJg5mDOIC5QBcD2UoBswDoCSAdgIYDGyAlgG5gDEaG2A2gAwC6ioADqrORagQ4gAHogCMATgAcOAMwB2AKwAaEAE9xU5gF9tq+llwBBMlVoGmbId179BSEeOlylqjQgk69IC8dPUaWGwwThZ2Bxs+cgEhUQRZKTEcaQAWBRV1RAAmFOYcADZCouKiiV1vAlQIOCFfax4omIc4sSy3cSzdfXRDfGJ-MHrbaPtQOPzmdo98nDES+fz5Lp8e7BwTCmohxtHHeKz5HHlZNNdM6dmFkqXvXxwAZWDOcgIobbtYxFl8iWSpU4y7lkzDyV2KN10QA */
+  /** @xstate-layout N4IgpgJg5mDOIC5QBcD2UoBswDoCSAdgIYDGyAlgG5gDEaG2A2gAwC6ioADqrORagQ4gAHogCMATgAcOAMwB2AKwAaEAE9xU5gF9tq+llwBBMlVoGmbId179BSEeOlylqjQgk69IC8dPUaWGwwThZ2Bxs+cgEhUQRZKTEcaQAWBRV1RAAmFOYcADZCouLC+V1vAlQIOCFfax4omIc4sSy3RABaMUUZWWYs5ilZYZHhsV19dEN8Yn8wetto+1A4-OZ2j3ycMRLd-LLvXxwTCmoFxuXHeKksnFys2TTXTIQOrTl+wdHviZ8p7BwAGVgpxyAQoOc7LFELJ8hJklInhl3H08nsSgddEA */
   id: 'toggle',
   initial: 'Inactive',
   states: {
