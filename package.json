@@ -1,0 +1,21 @@
+{
+  "name": "stunning-pancake",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "esbuild src/index.js --bundle --outdir=dist --platform=node"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "xstate": "^5.9.1",
+    "lodash": "^4.17.21",
+    "winston": "^3.11.0",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "esbuild": "^0.19.11"
+  }
+}
