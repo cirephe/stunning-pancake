@@ -21,7 +21,9 @@ app.get('/api/data', (req, res) => {
   res.json(data);
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => logger.info(`Server running on port ${PORT}`));
+if (require.main === module) {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => logger.info(`Server running on port ${PORT}`));
+}
 
 module.exports = app;
